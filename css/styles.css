@@ -3,6 +3,62 @@ body {
     background-color: #FFFFFF;
     color: #434455;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
 .logo-span{
     font-family: Raleway;
     color: #2e2f42;
@@ -22,6 +78,14 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+
+/*? --------------HEADER----------------- */
+
+.header{
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .header-menu{
     color: #2e2f42;
@@ -47,6 +111,13 @@ body {
 .header-adress:focus {
     color:#404bbf;
 }
+
+
+/*? --------------buttom 1----------------- */
+
+.container-button {
+    padding: 188px 472px 292px 472px;
+}
 .section-button-button {
     background-color: #4D5AE5;
     color:   #ffffff;
@@ -55,6 +126,7 @@ body {
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
+    padding: 16px 32px;
 }
 .section-button-button:hover,
 .section-button-button:focus {
@@ -71,9 +143,21 @@ body {
     font-weight: 700;
     line-height: 1.07; 
     letter-spacing: 0.02em;
+    
+    width: 496px;
+    margin-bottom: 48px;
 }
-.section-team-list {
-    background-color: #FFFFFF;
+
+
+/*? --------------ADVANTAGES 2----------------- */
+
+
+
+.section-advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.advantages-list {
 }
 .advantages-title{
     color: #2e2f42;
@@ -87,6 +171,15 @@ body {
     font-size: 16px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
+    width: 264px;
+}
+
+
+/*? --------------TEAM 3----------------- */
+
+
+.section-team-list {
+    background-color: #FFFFFF;
 }
 .team-title{
     color:#2e2f42;
@@ -105,8 +198,12 @@ body {
 }
 .section-team {
     background-color: #F4F4FD;
+    padding-top: 120px;
+
+    padding-bottom: 120px;
 }
 .section-team-head{
+    padding-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -114,7 +211,15 @@ body {
     text-transform: capitalize;
     color: #2e2f42;
 }
-.section-portfolio{
+
+
+/*? --------------PORTFOLIO 4----------------- */
+
+.section-portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-portfolio-title{
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -133,13 +238,23 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
+
+
+/*? --------------FOOTER----------------- */
+
+
 .footer{
     background:  #2E2F42;
 }
+.footer-container {
+    padding: 140px 1020px 100px 156px;
+}
 .footer-text {
+    margin-top: 18px;
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 .logo-span-footer {
     font-family: Raleway;
