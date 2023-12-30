@@ -227,9 +227,9 @@ img {
 /*? --------------TEAM 3----------------- */
 
 
-.section-team-container {
+/*.section-team-container {
     display: flex;
-}
+}*/
 .section-team-list {
     display: flex;
     gap: 24px;
