@@ -114,9 +114,9 @@ img {
     font-weight: 500;
     line-height: 1.50;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 .header-item {
-    padding: 24px 0;
 }
 .header-menu:hover,
 .header-menu:focus {
