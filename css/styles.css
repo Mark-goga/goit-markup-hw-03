@@ -55,8 +55,8 @@ img {
   margin: -1px;
   border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
+  /*white-space: nowrap;
+  clip-path: inset(100%);*/
   overflow: hidden;
 }
 
@@ -115,8 +115,7 @@ img {
     letter-spacing: 0.02em;
 }
 .header-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .header-menu:hover,
 .header-menu:focus {
