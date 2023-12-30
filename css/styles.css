@@ -33,12 +33,14 @@ button {
 address {
   font-style: normal;
 }
-
+img {
+    display: block;
+}
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 156px;
-  padding-right: 156px;
+  /*padding-left: 156px;
+  padding-right: 156px;*/
   margin: 0 auto;
   border: 2px solid red;
 }
@@ -83,9 +85,21 @@ address {
 
 /*? --------------HEADER----------------- */
 
+
+.header-container {
+    display: flex;
+}
 .header{
     padding-top: 25px;
     padding-bottom: 25px;
+}
+.header-nav {
+    display: flex;
+}
+.header-list {
+    display: flex;
+    margin-left: 76px;
+    gap: 40px;
 }
 .header-menu{
     color: #2e2f42;
@@ -100,6 +114,11 @@ address {
 }
 .adress{
     font-style: normal;
+    margin-left: 322px;
+}
+.header-adress-list {
+    display: flex;
+    gap: 40px;
 }
 .header-adress{
     color:  #434455;
@@ -158,6 +177,13 @@ address {
     padding-bottom: 120px;
 }
 .advantages-list {
+    display: flex;
+}
+.advantages-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 24px;
+    width: calc((100% - 24px * 3) / 4);
 }
 .advantages-title{
     color: #2e2f42;
@@ -178,7 +204,15 @@ address {
 /*? --------------TEAM 3----------------- */
 
 
+.section-team-container {
+    display: flex;
+}
 .section-team-list {
+    display: flex;
+    gap: 24px;
+    width: calc((100% - 24px * 3) / 4);
+}
+.section-team-item {
     background-color: #FFFFFF;
 }
 .team-title{
@@ -188,6 +222,8 @@ address {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 .team-text{
     color: #434455;
@@ -195,6 +231,7 @@ address {
     font-size: 16px;
     line-height: 1.50; 
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
 }
 .section-team {
     background-color: #F4F4FD;
@@ -219,6 +256,12 @@ address {
     padding-top: 120px;
     padding-bottom: 120px;
 }
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+    width: ((100% - 24px * 2) / 3);
+}
 .section-portfolio-title{
     font-size: 36px;
     line-height: 1.11;
@@ -233,10 +276,15 @@ address {
     font-weight: 500;
     line-height: 1.20; 
     letter-spacing: 0.02em;
+    
+    padding: 32px 16px 8px 16px;
 }
 .portfolio-text {
     line-height: 1.5; 
     letter-spacing: 0.02em;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 
