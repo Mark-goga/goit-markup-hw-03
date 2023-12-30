@@ -87,14 +87,13 @@ img {
 
 .header-container {
     display: flex;
-    padding: 0 15px
+    padding: 0 15px;
 }
 .header{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    /*padding-top: 25px;
+    padding-bottom: 25px;*/
     border-bottom: 1px solid #e7e9fc;
-    padding-left: 15px;
-    padding-right: 15px;
+
 }
 .header-nav {
     display: flex;
@@ -116,7 +115,8 @@ img {
     letter-spacing: 0.02em;
 }
 .header-item {
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-menu:hover,
 .header-menu:focus {
@@ -124,7 +124,9 @@ img {
 }
 .adress{
     font-style: normal;
-    margin-left: 322px;
+    margin-left: 250px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-adress-list {
     display: flex;
@@ -145,7 +147,7 @@ img {
 /*? --------------buttom 1----------------- */
 
 .container-button {
-    padding: 188px 472px 292px 472px;
+    /*padding: 188px 472px 292px 472px;*/
 }
 .section-button-button {
     display: block;
@@ -156,6 +158,7 @@ img {
     line-height: 1.50;
     letter-spacing: 0.04em;
     cursor: pointer;
+    margin: 0 auto;
     padding: 16px 32px;
     min-width: 169px;
     height: 56px;
@@ -181,6 +184,7 @@ img {
     letter-spacing: 0.02em;
     max-width: 496px;
     width: 100%;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 
@@ -326,7 +330,6 @@ img {
     padding: 100px 0;
 }
 .footer-container {
-    padding: 140px 1020px 100px 156px;
 }
 .footer-text {
     margin-top: 18px;
