@@ -87,6 +87,7 @@ img {
 
 .header-container {
     display: flex;
+    padding: 0 15px
 }
 .header{
     padding-top: 25px;
@@ -100,6 +101,9 @@ img {
     align-items: center;
     margin-right: 76px;;
 }
+.logo-header {
+    margin-right: 76px
+}
 .header-list {
     display: flex;
     gap: 40px;
@@ -112,8 +116,7 @@ img {
     letter-spacing: 0.02em;
 }
 .header-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
 }
 .header-menu:hover,
 .header-menu:focus {
@@ -145,6 +148,7 @@ img {
     padding: 188px 472px 292px 472px;
 }
 .section-button-button {
+    display: block;
     background-color: #4D5AE5;
     color:   #ffffff;
     font-size: 16px;
@@ -206,6 +210,7 @@ img {
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .advantages-text{
     color: #434455;
